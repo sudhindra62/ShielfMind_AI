@@ -1,0 +1,11 @@
+{
+  "name": "shelfmind-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "backend\\.venv\\Scripts\\python.exe -B -m uvicorn main:app --host 127.0.0.1 --port 8000",
+    "build": "npm --prefix frontend run build"
+  }
+}
